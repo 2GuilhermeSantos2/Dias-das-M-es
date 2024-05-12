@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent; /* Define o background como transparente */
+    transition: background-color 0.5s ease; /* Adiciona transição suave para a mudança de cor de fundo */
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.password-input {
+    width: 150px; /* Reduz o tamanho do campo de senha */
+}
+
+.photo-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.photo {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    max-height: 300px; /* Define a altura máxima da imagem para 300 pixels */
+    border-radius: 10px;
+    display: block; /* Permite centralizar a imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8e44ad; /* Cor lilás para o botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease; /* Adiciona transição suave para a mudança de cor do botão */
+}
+

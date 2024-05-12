@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poema para a Vovó</title>
+    <link rel="stylesheet" href="styles/styleVo.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Insira a senha para ver o poema</h1>
+        <input type="password" id="passwordInput" class="password-input" placeholder="Senha">
+        <br> <!-- Adiciona uma quebra de linha para separar o campo de texto do botão -->
+        <button onclick="checkPassword()">Confirmar</button>
+    </div>
+
+    <div id="photoContainer" class="photo-container" style="display: none;">
+        <img id="photo" src="#" alt="Foto da Vovó" class="photo">
+    </div>
+
+    <div id="popup" class="popup"></div>
+
+    <!-- Espaço para a música -->
+    <!-- <audio id="bgMusic" autoplay loop>
+        <source src="caminho/da/musica.mp3" type="audio/mp3">
+        Seu navegador não suporta áudio HTML5.
+    </audio> -->
+
+    <script src="scripts/scriptVo.js"></script>
+</body>
+</html>

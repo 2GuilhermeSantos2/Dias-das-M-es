@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+    h1 {
+    color: #333;
+    font-size: 2em; /* Tamanho maior para o título */
+    margin-bottom: 0.5em;
+    }
+
+    button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra leve para profundidade */
+    transition: all 0.3s ease; /* Transição suave para efeitos de hover */
+    }
+
+    button:hover {
+    transform: scale(1.05); /* Efeito de crescimento ao passar o mouse */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    button#vo {
+    background-color: #ffcccb; /* Cor de fundo para o botão da vó */
+    }
+
+    button#mae {
+    background-color: #add8e6; /* Cor de fundo para o botão da mãe */
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+    h1 {
+    font-size: 1.5em;
+    }
+
+    button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    }
+}
+
+/* Adicione estilos conforme necessário */
+
+button#mae.mae {
+    background-color: #8e44ad; /* Cor lilás */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button#mae.mae:hover {
+    background-color: #6c3483; /* Cor lilás escura no hover */
+}
+
+button#vo, button#mae {
+    width: 100px; /* Define a largura dos botões */
+    padding: 10px; /* Adiciona espaço interno aos botões */
+    background-color: #4caf50; /* Cor verde para o botão "Vó" */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button#mae {
+    background-color: #8e44ad; /* Cor lilás para o botão "Mãe" */
+}
+
+button#vo:hover, button#mae:hover {
+    background-color: #45a049; /* Altera a cor no hover */
+}
+

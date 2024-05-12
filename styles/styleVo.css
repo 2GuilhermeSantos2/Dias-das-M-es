@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a9dfbf; /* Fundo verde claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.password-input {
+    width: 150px; /* Reduz o tamanho do campo de senha */
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999; /* Garante que o popup apareça sobre todos os outros elementos */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 20% auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    z-index: 10000; /* Garante que o conteúdo do popup apareça sobre o fundo */
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+button.mae {
+    padding: 10px 20px;
+    background-color: #8e44ad; /* Cor lilás */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button.mae:hover {
+    background-color: #6c3483; /* Cor lilás escura no hover */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type=password] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.photo-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.photo {
+    width: 300px; /* Defina o tamanho da foto conforme necessário */
+    border-radius: 10px;
+}
